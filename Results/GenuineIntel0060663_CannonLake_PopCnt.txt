@@ -1,0 +1,530 @@
+  === Zero Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+  === Full Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+  === Random Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+
+  === Performance Test (total runtime in 1000 TSC clocks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           38|           40|           40|           44| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      0.046 *|      0.064  |      0.052  |      0.060  |      0.050  |      0.056  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      0.046 *|      0.062  |      0.054  |      0.064  |      0.058  |      0.064  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      0.052 *|      0.068  |      0.052 *|      0.074  |      0.056  |      0.058  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      0.058 *|      0.076  |      0.062  |      0.084  |      0.060  |      0.062  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      0.064  |      0.086  |      0.068  |      0.090  |      0.062  |      0.060 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      0.080  |      0.100  |      0.078  |      0.110  |      0.068 *|      0.086  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      0.098  |      0.090  |      0.072 *|      0.128  |      0.074  |      0.086  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      0.132  |      0.112  |      0.098  |      0.170  |      0.092 *|      0.092 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      0.164  |      0.122  |      0.090  |      0.118  |      0.084  |      0.082 *| No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      0.226  |      0.152  |      0.108 *|      0.194  |      0.114  |      0.108 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      0.294  |      0.188  |      0.166  |      0.142  |      0.104  |      0.100 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      0.424  |      0.254  |      0.212  |      0.168  |      0.124 *|      0.124 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      0.552  |      0.324  |      0.240  |      0.220  |      0.178  |      0.174 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      0.808  |      0.452  |      0.306  |      0.312  |      0.234 *|      0.246  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      1.066  |      0.582  |      0.372  |      0.308  |      0.252 *|      0.254  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      1.582  |      0.860  |      0.506  |      0.376  |      0.318  |      0.316 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      2.090  |      1.108  |      0.638  |      0.454  |      0.386 *|      0.386 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      3.130  |      1.638  |      0.902  |      0.596  |      0.524 *|      0.528  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      4.154  |      2.190  |      1.168  |      0.750  |      0.662 *|      0.670  | No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      6.212  |      3.244  |      1.846  |      1.530  |      1.454 *|      1.478  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      8.268  |      4.312  |      2.422  |      2.252  |      2.124  |      2.094 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|     12.384  |      6.428  |      3.630  |      3.118  |      3.004  |      2.994 *| No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|     16.500  |      8.564  |      4.802  |      4.344  |      4.078  |      4.052 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|     24.732  |     12.864  |      6.924  |      5.546  |      5.284  |      5.224 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|     32.988  |     17.118  |      9.172  |      7.174  |      6.844 *|      6.944  | No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|     50.862  |     26.862  |     20.758 *|     21.970  |     21.626  |     21.658  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|     67.890  |     36.316  |     28.392 *|     30.294  |     29.794  |     29.778  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|    101.694  |     54.528  |     42.660 *|     45.462  |     44.686  |     44.622  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|    135.630  |     72.544  |     56.612 *|     60.738  |     59.544  |     59.640  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|    203.458  |    109.012  |     84.912 *|     90.944  |     89.314  |     89.618  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|    271.268  |    145.276  |    113.790 *|    121.364  |    119.178  |    119.522  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|    427.288  |    244.948  |    193.788 *|    205.008  |    198.470  |    199.116  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|    654.280  |    466.476  |    376.052 *|    396.158  |    381.662  |    381.292  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|   1112.688  |    913.556  |    775.250  |    731.996  |    717.818  |    709.762 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|   1534.638  |   1350.950  |   1173.242  |   1076.470  |   1060.996  |   1055.364 *| No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|   2500.726  |   2260.526  |   2001.200  |   1801.106  |   1772.594 *|   1781.700  | No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|   3368.432  |   3065.974  |   2753.510  |   2457.858  |   2472.194  |   2445.322 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|   5084.318  |   4700.828  |   4256.278  |   3826.144  |   3802.768  |   3797.630 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|   6848.394  |   6338.862  |   5846.898  |   5268.346  |   5749.102  |   5199.112 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|  10296.738  |   9694.132  |   8820.508  |   7914.184  |   7904.390  |   7882.986 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|  13782.908  |  12901.780  |  11787.156  |  10559.506 *|  10603.008  |  10588.192  | No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|  20706.654  |  19420.312  |  17807.666  |  15957.544  |  15953.342 *|  16001.216  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|  27654.360  |  25990.732  |  23814.738  |  21359.972  |  21401.762  |  21346.304 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|  41451.086  |  39183.356  |  35916.420  |  32127.548 *|  32139.128  |  32136.380  | No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|  55307.194  |  52303.076  |  47922.214  |  42938.976  |  42976.838  |  42882.904 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (in bytes per TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           38|           40|           40|           44| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      1.391 *|      1.000  |      1.231  |      1.067  |      1.280  |      1.143  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      2.087 *|      1.548  |      1.778  |      1.500  |      1.655  |      1.500  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      2.462 *|      1.882  |      2.462 *|      1.730  |      2.286  |      2.207  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      3.310 *|      2.526  |      3.097  |      2.286  |      3.200  |      3.097  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      4.000  |      2.977  |      3.765  |      2.844  |      4.129  |      4.267 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      4.800  |      3.840  |      4.923  |      3.491  |      5.647 *|      4.465  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      5.224  |      5.689  |      7.111 *|      4.000  |      6.919  |      5.953  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      5.818  |      6.857  |      7.837  |      4.518  |      8.348 *|      8.348 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      6.244  |      8.393  |     11.378  |      8.678  |     12.190  |     12.488 *| No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      6.796  |     10.105  |     14.222 *|      7.918  |     13.474  |     14.222 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      6.966  |     10.894  |     12.337  |     14.423  |     19.692  |     20.480 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      7.245  |     12.094  |     14.491  |     18.286  |     24.774 *|     24.774 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      7.420  |     12.642  |     17.067  |     18.618  |     23.011  |     23.540 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      7.604  |     13.593  |     20.078  |     19.692  |     26.256 *|     24.976  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      7.685  |     14.076  |     22.022  |     26.597  |     32.508 *|     32.252  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      7.767  |     14.288  |     24.285  |     32.681  |     38.642  |     38.886 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      7.839  |     14.787  |     25.680  |     36.088  |     42.446 *|     42.446 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      7.852  |     15.004  |     27.246  |     41.235  |     46.901 *|     46.545  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      7.888  |     14.963  |     28.055  |     43.691  |     49.498 *|     48.907  | No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      7.912  |     15.152  |     26.626  |     32.125  |     33.805 *|     33.256  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      7.926  |     15.199  |     27.059  |     29.101  |     30.855  |     31.297 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      7.938  |     15.293  |     27.081  |     31.528  |     32.724  |     32.834 *| No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      7.944  |     15.305  |     27.295  |     30.173  |     32.141  |     32.347 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      7.950  |     15.284  |     28.395  |     35.450  |     37.208  |     37.636 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      7.947  |     15.314  |     28.581  |     36.541  |     38.303 *|     37.751  | No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      7.731  |     14.638  |     18.943 *|     17.898  |     18.183  |     18.156  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      7.723  |     14.437  |     18.466 *|     17.307  |     17.597  |     17.607  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      7.733  |     14.423  |     18.435 *|     17.299  |     17.599  |     17.624  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      7.731  |     14.454  |     18.522 *|     17.264  |     17.610  |     17.582  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      7.731  |     14.428  |     18.523 *|     17.295  |     17.610  |     17.551  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      7.731  |     14.436  |     18.430 *|     17.280  |     17.597  |     17.546  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      7.362  |     12.842  |     16.233 *|     15.344  |     15.850  |     15.798  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      6.411  |      8.991  |     11.154 *|     10.587  |     10.990  |     11.000  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      5.654  |      6.887  |      8.115  |      8.595  |      8.765  |      8.864 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      5.466  |      6.209  |      7.150  |      7.793  |      7.906  |      7.949 *| No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      5.032  |      5.566  |      6.288  |      6.986  |      7.099 *|      7.062  | No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      4.981  |      5.472  |      6.093  |      6.826  |      6.786  |      6.861 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      4.950  |      5.353  |      5.913  |      6.577  |      6.618  |      6.627 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      4.900  |      5.293  |      5.739  |      6.369  |      5.836  |      6.454 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      4.888  |      5.192  |      5.706  |      6.360  |      6.368  |      6.385 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      4.869  |      5.202  |      5.693  |      6.355 *|      6.329  |      6.338  | No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      4.861  |      5.183  |      5.653  |      6.308  |      6.310 *|      6.291  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      4.853  |      5.164  |      5.636  |      6.284  |      6.271  |      6.288 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      4.857  |      5.138  |      5.605  |      6.266 *|      6.264  |      6.265  | No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      4.854  |      5.132  |      5.601  |      6.252  |      6.246  |      6.260 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (in bytes per corrected TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           38|           40|           40|           44| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      6.400 *|      8.000  |      4.571  |      3.200  |      6.400  |      5.333  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      9.600 *|     16.000  |      6.000  |      4.000  |      5.333  |      4.800  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      8.000 *|     10.667  |      9.143 *|      3.765  |      8.000  |      9.143  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      8.727 *|      9.600  |      8.000  |      4.364  |      9.600  |     10.667  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      9.143  |      8.533  |      8.533  |      5.120  |     11.636  |     16.000 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      8.727  |      8.727  |      9.600  |      5.486  |     13.714 *|      9.143  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      8.258  |     15.059  |     15.059 *|      5.818  |     15.059  |     12.190  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      8.000  |     13.714  |     12.800  |      5.908  |     14.769 *|     16.000 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      8.000  |     15.515  |     19.692  |     13.128  |     23.273  |     26.947 *| No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      8.084  |     16.000  |     21.943 *|      9.974  |     20.757  |     24.000 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      7.938  |     15.515  |     16.000  |     20.078  |     32.000  |     36.571 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      7.918  |     15.515  |     17.655  |     24.000  |     36.571 *|     38.400 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      7.938  |     15.284  |     20.277  |     22.756  |     29.681  |     31.508 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      7.959  |     15.515  |     22.925  |     22.588  |     31.670 *|     30.416  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      7.953  |     15.574  |     24.527  |     30.567  |     38.642 *|     39.010  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      7.948  |     15.284  |     26.256  |     36.571  |     44.201  |     45.176 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      7.977  |     15.574  |     27.307  |     39.575  |     47.353 *|     47.906 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      7.943  |     15.535  |     28.444  |     44.201  |     50.777 *|     50.777  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      7.957  |     15.355  |     28.998  |     46.152  |     52.682 *|     52.345  | No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      7.959  |     15.418  |     27.186  |     32.988  |     34.761 *|     34.276  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      7.961  |     15.398  |     27.490  |     29.627  |     31.447  |     31.969 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      7.961  |     15.427  |     27.367  |     31.938  |     33.166  |     33.323 *| No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      7.961  |     15.406  |     27.513  |     30.454  |     32.460  |     32.703 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      7.961  |     15.350  |     28.552  |     35.708  |     37.492  |     37.955 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      7.955  |     15.364  |     28.700  |     36.746  |     38.528 *|     37.992  | No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      7.737  |     14.669  |     18.978 *|     17.931  |     18.216  |     18.193  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      7.727  |     14.459  |     18.491 *|     17.330  |     17.621  |     17.633  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      7.736  |     14.437  |     18.451 *|     17.314  |     17.615  |     17.642  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      7.733  |     14.466  |     18.535 *|     17.275  |     17.622  |     17.595  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      7.732  |     14.436  |     18.532 *|     17.302  |     17.618  |     17.559  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      7.732  |     14.441  |     18.436 *|     17.286  |     17.603  |     17.553  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      7.363  |     12.845  |     16.236 *|     15.347  |     15.853  |     15.802  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      6.411  |      8.993  |     11.155 *|     10.589  |     10.991  |     11.002  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      5.654  |      6.887  |      8.116  |      8.595  |      8.765  |      8.865 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      5.466  |      6.210  |      7.150  |      7.793  |      7.907  |      7.949 *| No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      5.032  |      5.567  |      6.288  |      6.986  |      7.099 *|      7.062  | No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      4.981  |      5.472  |      6.093  |      6.826  |      6.786  |      6.861 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      4.950  |      5.354  |      5.913  |      6.577  |      6.618  |      6.627 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      4.900  |      5.293  |      5.739  |      6.369  |      5.837  |      6.454 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      4.888  |      5.192  |      5.706  |      6.360  |      6.368  |      6.385 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      4.869  |      5.202  |      5.693  |      6.355 *|      6.329  |      6.338  | No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      4.861  |      5.183  |      5.653  |      6.308  |      6.310 *|      6.291  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      4.853  |      5.164  |      5.636  |      6.284  |      6.271  |      6.288 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      4.857  |      5.138  |      5.605  |      6.266 *|      6.264  |      6.265  | No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      4.854  |      5.132  |      5.601  |      6.252  |      6.246  |      6.260 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (TSC clks per processed qwords) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           38|           40|           40|           44| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      1.250 *|      1.000  |      1.750  |      2.500  |      1.250  |      1.500  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      0.833 *|      0.500  |      1.333  |      2.000  |      1.500  |      1.667  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      1.000 *|      0.750  |      0.875 *|      2.125  |      1.000  |      0.875  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      0.917 *|      0.833  |      1.000  |      1.833  |      0.833  |      0.750  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      0.875  |      0.938  |      0.938  |      1.563  |      0.688  |      0.500 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      0.917  |      0.917  |      0.833  |      1.458  |      0.583 *|      0.875  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      0.969  |      0.531  |      0.531 *|      1.375  |      0.531  |      0.656  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      1.000  |      0.583  |      0.625  |      1.354  |      0.542 *|      0.500 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      1.000  |      0.516  |      0.406  |      0.609  |      0.344  |      0.297 *| No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      0.990  |      0.500  |      0.365 *|      0.802  |      0.385  |      0.333 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      1.008  |      0.516  |      0.500  |      0.398  |      0.250  |      0.219 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      1.010  |      0.516  |      0.453  |      0.333  |      0.219 *|      0.208 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      1.008  |      0.523  |      0.395  |      0.352  |      0.270  |      0.254 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      1.005  |      0.516  |      0.349  |      0.354  |      0.253 *|      0.263  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      1.006  |      0.514  |      0.326  |      0.262  |      0.207 *|      0.205  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      1.007  |      0.523  |      0.305  |      0.219  |      0.181  |      0.177 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      1.003  |      0.514  |      0.293  |      0.202  |      0.169 *|      0.167 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      1.007  |      0.515  |      0.281  |      0.181  |      0.158 *|      0.158  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      1.005  |      0.521  |      0.276  |      0.173  |      0.152 *|      0.153  | No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      1.005  |      0.519  |      0.294  |      0.243  |      0.230 *|      0.233  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      1.005  |      0.520  |      0.291  |      0.270  |      0.254  |      0.250 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      1.005  |      0.519  |      0.292  |      0.250  |      0.241  |      0.240 *| No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      1.005  |      0.519  |      0.291  |      0.263  |      0.246  |      0.245 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      1.005  |      0.521  |      0.280  |      0.224  |      0.213  |      0.211 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      1.006  |      0.521  |      0.279  |      0.218  |      0.208 *|      0.211  | No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      1.034  |      0.545  |      0.422 *|      0.446  |      0.439  |      0.440  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      1.035  |      0.553  |      0.433 *|      0.462  |      0.454  |      0.454  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      1.034  |      0.554  |      0.434 *|      0.462  |      0.454  |      0.453  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      1.035  |      0.553  |      0.432 *|      0.463  |      0.454  |      0.455  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      1.035  |      0.554  |      0.432 *|      0.462  |      0.454  |      0.456  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      1.035  |      0.554  |      0.434 *|      0.463  |      0.454  |      0.456  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      1.087  |      0.623  |      0.493 *|      0.521  |      0.505  |      0.506  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      1.248  |      0.890  |      0.717 *|      0.756  |      0.728  |      0.727  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      1.415  |      1.162  |      0.986  |      0.931  |      0.913  |      0.902 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      1.464  |      1.288  |      1.119  |      1.027  |      1.012  |      1.006 *| No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      1.590  |      1.437  |      1.272  |      1.145  |      1.127 *|      1.133  | No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      1.606  |      1.462  |      1.313  |      1.172  |      1.179  |      1.166 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      1.616  |      1.494  |      1.353  |      1.216  |      1.209  |      1.207 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      1.633  |      1.511  |      1.394  |      1.256  |      1.371  |      1.240 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      1.637  |      1.541  |      1.402  |      1.258  |      1.256  |      1.253 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      1.643  |      1.538  |      1.405  |      1.259 *|      1.264  |      1.262  | No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      1.646  |      1.543  |      1.415  |      1.268  |      1.268 *|      1.272  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      1.648  |      1.549  |      1.419  |      1.273  |      1.276  |      1.272 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      1.647  |      1.557  |      1.427  |      1.277 *|      1.277  |      1.277  | No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      1.648  |      1.559  |      1.428  |      1.280  |      1.281  |      1.278 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Zero Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+  === Full Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+  === Random Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   | No_VPOPCNTDQ    | No_BITALG       |
+
+  === Performance Test (total runtime in 1000 TSC clocks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           36|           42|           40|           46| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      0.046 *|      0.062  |      0.050  |      0.060  |      0.048  |      0.056  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      0.046 *|      0.064  |      0.054  |      0.064  |      0.058  |      0.082  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      0.048 *|      0.070  |      0.056  |      0.074  |      0.056  |      0.058  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      0.058 *|      0.076  |      0.062  |      0.082  |      0.060  |      0.062  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      0.066  |      0.086  |      0.068  |      0.092  |      0.060 *|      0.060 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      0.082  |      0.098  |      0.078  |      0.112  |      0.072 *|      0.084  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      0.098  |      0.090  |      0.070 *|      0.132  |      0.076  |      0.088  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      0.132  |      0.112  |      0.096  |      0.170  |      0.094 *|      0.094 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      0.164  |      0.120  |      0.090  |      0.118  |      0.080 *|      0.082  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      0.228  |      0.152  |      0.116  |      0.196  |      0.112  |      0.106 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      0.294  |      0.186  |      0.162  |      0.146  |      0.104 *|      0.104 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      0.420  |      0.256  |      0.210  |      0.174  |      0.130  |      0.124 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      0.550  |      0.318  |      0.248  |      0.222  |      0.174  |      0.172 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      0.806  |      0.452  |      0.304  |      0.312  |      0.234 *|      0.244  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      1.064  |      0.588  |      0.370  |      0.310  |      0.250 *|      0.256  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      1.580  |      0.846  |      0.502  |      0.376  |      0.320  |      0.318 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      2.092  |      1.126  |      0.638  |      0.450  |      0.386 *|      0.386 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      3.122  |      1.644  |      0.904  |      0.602  |      0.522 *|      0.526  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      4.160  |      2.164  |      1.174  |      0.772  |      0.684  |      0.678 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      6.212  |      3.254  |      1.830  |      1.682  |      1.584 *|      1.600  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      8.270  |      4.328  |      2.440  |      2.162  |      2.026 *|      2.104  | No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|     12.382  |      6.428  |      3.630  |      3.128  |      3.064 *|      3.086  | No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|     16.500  |      8.568  |      4.718  |      3.894  |      3.720  |      3.698 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|     24.740  |     12.818  |      6.972  |      5.678  |      5.316 *|      5.340  | No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|     32.984  |     17.078  |      9.150  |      7.192  |      6.958  |      6.892 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|     50.908  |     26.888  |     20.756 *|     21.994  |     21.550  |     21.706  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|     67.858  |     36.342  |     28.382 *|     30.300  |     29.586  |     29.852  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|    101.736  |     54.470  |     42.578 *|     45.322  |     44.696  |     44.726  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|    135.656  |     72.604  |     57.028 *|     60.724  |     59.682  |     59.662  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|    203.418  |    109.176  |     85.072 *|     90.844  |     89.400  |     89.664  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|    271.288  |    145.616  |    113.604 *|    121.476  |    119.188  |    119.110  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|    425.050  |    259.006  |    201.226 *|    210.534  |    206.688  |    207.348  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|    654.166  |    454.474  |    353.810 *|    380.020  |    369.884  |    368.924  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|   1136.786  |    992.092  |    869.940  |    745.396  |    739.502  |    731.718 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|   1626.626  |   1421.626  |   1234.118  |   1090.992  |   1070.348 *|   1075.970  | No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|   2474.788  |   2234.512  |   1976.938  |   1766.536  |   1751.150  |   1745.716 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|   3342.602  |   3057.752  |   2721.366  |   2447.228  |   2445.154  |   2431.608 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|   5102.044  |   4695.458  |   4281.252  |   3825.450  |   3846.996  |   3811.704 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|   6809.366  |   6316.374  |   5762.154  |   5126.222 *|   5185.624  |   5145.938  | No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|  10291.846  |   9589.700  |   8771.574  |   7883.200  |   7856.464  |   7844.224 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|  13753.506  |  12974.142  |  11789.240  |  10576.372  |  10566.694  |  10554.692 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|  20676.118  |  19440.190  |  17784.024  |  16009.814  |  15972.604 *|  15975.990  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|  27597.500  |  26028.590  |  23808.016  |  21396.030  |  21356.828  |  21351.170 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|  41456.466  |  39177.228  |  35810.776  |  32230.316  |  32207.632  |  32184.116 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|  55318.590  |  52184.510  |  47859.982  |  43013.748  |  43012.624  |  42939.734 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (in bytes per TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           36|           42|           40|           46| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      1.391 *|      1.032  |      1.280  |      1.067  |      1.333  |      1.143  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      2.087 *|      1.500  |      1.778  |      1.500  |      1.655  |      1.171  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      2.667 *|      1.829  |      2.286  |      1.730  |      2.286  |      2.207  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      3.310 *|      2.526  |      3.097  |      2.341  |      3.200  |      3.097  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      3.879  |      2.977  |      3.765  |      2.783  |      4.267 *|      4.267 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      4.683  |      3.918  |      4.923  |      3.429  |      5.333 *|      4.571  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      5.224  |      5.689  |      7.314 *|      3.879  |      6.737  |      5.818  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      5.818  |      6.857  |      8.000  |      4.518  |      8.170 *|      8.170 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      6.244  |      8.533  |     11.378  |      8.678  |     12.800 *|     12.488  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      6.737  |     10.105  |     13.241  |      7.837  |     13.714  |     14.491 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      6.966  |     11.011  |     12.642  |     14.027  |     19.692 *|     19.692 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      7.314  |     12.000  |     14.629  |     17.655  |     23.631  |     24.774 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      7.447  |     12.881  |     16.516  |     18.450  |     23.540  |     23.814 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      7.623  |     13.593  |     20.211  |     19.692  |     26.256 *|     25.180  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      7.699  |     13.932  |     22.141  |     26.426  |     32.768 *|     32.000  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      7.777  |     14.525  |     24.478  |     32.681  |     38.400  |     38.642 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      7.832  |     14.551  |     25.680  |     36.409  |     42.446 *|     42.446 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      7.872  |     14.949  |     27.186  |     40.824  |     47.080 *|     46.722  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      7.877  |     15.142  |     27.911  |     42.446  |     47.906  |     48.330 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      7.912  |     15.105  |     26.859  |     29.222  |     31.030 *|     30.720  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      7.925  |     15.142  |     26.859  |     30.313  |     32.347 *|     31.148  | No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      7.939  |     15.293  |     27.081  |     31.427  |     32.084 *|     31.855  | No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      7.944  |     15.298  |     27.781  |     33.660  |     35.234  |     35.444 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      7.947  |     15.338  |     28.200  |     34.626  |     36.984 *|     36.818  | No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      7.948  |     15.350  |     28.650  |     36.449  |     37.675  |     38.036 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      7.724  |     14.624  |     18.945 *|     17.878  |     18.247  |     18.116  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      7.726  |     14.427  |     18.473 *|     17.303  |     17.721  |     17.563  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      7.730  |     14.438  |     18.470 *|     17.352  |     17.595  |     17.583  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      7.730  |     14.442  |     18.387 *|     17.268  |     17.569  |     17.575  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      7.732  |     14.407  |     18.489 *|     17.314  |     17.594  |     17.542  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      7.730  |     14.402  |     18.460 *|     17.264  |     17.595  |     17.607  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      7.401  |     12.145  |     15.633 *|     14.942  |     15.220  |     15.171  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      6.412  |      9.229  |     11.855 *|     11.037  |     11.340  |     11.369  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      5.534  |      6.342  |      7.232  |      8.440  |      8.508  |      8.598 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      5.157  |      5.901  |      6.797  |      7.689  |      7.837 *|      7.796  | No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      5.084  |      5.631  |      6.365  |      7.123  |      7.186  |      7.208 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      5.019  |      5.487  |      6.165  |      6.856  |      6.861  |      6.900 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      4.932  |      5.360  |      5.878  |      6.579  |      6.542  |      6.602 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      4.928  |      5.312  |      5.823  |      6.546 *|      6.471  |      6.521  | No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      4.890  |      5.249  |      5.738  |      6.385  |      6.406  |      6.416 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      4.879  |      5.173  |      5.692  |      6.345  |      6.351  |      6.358 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      4.869  |      5.178  |      5.660  |      6.288  |      6.302 *|      6.301  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      4.863  |      5.157  |      5.638  |      6.273  |      6.285  |      6.286 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      4.856  |      5.139  |      5.622  |      6.246  |      6.251  |      6.255 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      4.853  |      5.144  |      5.609  |      6.241  |      6.241  |      6.251 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (in bytes per corrected TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           36|           42|           40|           46| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      6.400 *|     10.667  |      4.571  |      3.556  |      8.000  |      6.400  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      9.600 *|     12.000  |      5.333  |      4.364  |      5.333  |      2.667  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |     10.667 *|      9.143  |      6.400  |      4.000  |      8.000  |     10.667  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      8.727 *|      9.600  |      7.385  |      4.800  |      9.600  |     12.000  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      8.533  |      8.533  |      8.000  |      5.120  |     12.800 *|     18.286 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      8.348  |      9.143  |      9.143  |      5.486  |     12.000 *|     10.105  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      8.258  |     15.059  |     15.059 *|      5.689  |     14.222  |     12.190  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      8.000  |     13.714  |     12.800  |      6.000  |     14.222 *|     16.000 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      8.000  |     16.000  |     18.963  |     13.474  |     25.600 *|     28.444  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      8.000  |     16.000  |     19.200  |      9.974  |     21.333  |     25.600 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      7.938  |     15.754  |     16.254  |     19.692  |     32.000 *|     35.310 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      8.000  |     15.360  |     17.655  |     23.273  |     34.133  |     39.385 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      7.969  |     15.634  |     19.321  |     22.756  |     30.567  |     32.508 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      7.979  |     15.515  |     22.925  |     22.756  |     31.670 *|     31.030  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      7.969  |     15.398  |     24.527  |     30.567  |     39.010 *|     39.010  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      7.959  |     15.554  |     26.369  |     36.790  |     43.886  |     45.176 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      7.969  |     15.312  |     27.216  |     40.157  |     47.353 *|     48.188 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      7.964  |     15.476  |     28.313  |     43.886  |     50.988 *|     51.200  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      7.946  |     15.545  |     28.794  |     44.888  |     50.882  |     51.848 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      7.959  |     15.370  |     27.398  |     29.971  |     31.834 *|     31.629  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      7.959  |     15.341  |     27.261  |     30.913  |     32.999 *|     31.845  | No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      7.962  |     15.427  |     27.352  |     31.855  |     32.508 *|     32.337  | No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      7.961  |     15.398  |     27.995  |     34.027  |     35.617  |     35.890 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      7.959  |     15.406  |     28.346  |     34.884  |     37.265 *|     37.138  | No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      7.956  |     15.400  |     28.763  |     36.663  |     37.893  |     38.292 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      7.730  |     14.655  |     18.978 *|     17.913  |     18.281  |     18.154  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      7.730  |     14.449  |     18.496 *|     17.327  |     17.745  |     17.590  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      7.733  |     14.453  |     18.486 *|     17.368  |     17.611  |     17.601  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      7.732  |     14.454  |     18.399 *|     17.280  |     17.581  |     17.589  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      7.734  |     14.414  |     18.496 *|     17.322  |     17.601  |     17.551  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      7.731  |     14.407  |     18.466 *|     17.270  |     17.601  |     17.614  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      7.401  |     12.148  |     15.636 *|     14.945  |     15.223  |     15.175  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      6.412  |      9.230  |     11.856 *|     11.038  |     11.341  |     11.370  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      5.535  |      6.342  |      7.232  |      8.441  |      8.508  |      8.599 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      5.157  |      5.901  |      6.797  |      7.689  |      7.838 *|      7.797  | No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      5.085  |      5.631  |      6.365  |      7.123  |      7.186  |      7.208 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      5.019  |      5.487  |      6.165  |      6.856  |      6.862  |      6.900 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      4.933  |      5.360  |      5.878  |      6.579  |      6.542  |      6.602 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      4.928  |      5.312  |      5.823  |      6.546 *|      6.471  |      6.521  | No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      4.890  |      5.249  |      5.738  |      6.385  |      6.406  |      6.416 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      4.879  |      5.173  |      5.692  |      6.345  |      6.351  |      6.358 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      4.869  |      5.178  |      5.660  |      6.288  |      6.302 *|      6.301  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      4.863  |      5.157  |      5.638  |      6.273  |      6.285  |      6.286 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      4.856  |      5.139  |      5.622  |      6.247  |      6.251  |      6.255 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      4.853  |      5.144  |      5.609  |      6.241  |      6.241  |      6.251 *| No_VPOPCNTDQ    | No_BITALG       |
+  === Performance Test (TSC clks per processed qwords) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   | No_VPopCntKNM   | No_VPopCntICL   |
+   RDTSCP  |           36|           56|           36|           42|           40|           46| No_VPOPCNTDQ    | No_BITALG       |
+     64 B  |      1.250 *|      0.750  |      1.750  |      2.250  |      1.000  |      1.250  | No_VPOPCNTDQ    | No_BITALG       |
+     96 B  |      0.833 *|      0.667  |      1.500  |      1.833  |      1.500  |      3.000  | No_VPOPCNTDQ    | No_BITALG       |
+    128 B  |      0.750 *|      0.875  |      1.250  |      2.000  |      1.000  |      0.750  | No_VPOPCNTDQ    | No_BITALG       |
+    192 B  |      0.917 *|      0.833  |      1.083  |      1.667  |      0.833  |      0.667  | No_VPOPCNTDQ    | No_BITALG       |
+    256 B  |      0.938  |      0.938  |      1.000  |      1.563  |      0.625 *|      0.438 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 B  |      0.958  |      0.875  |      0.875  |      1.458  |      0.667 *|      0.792  | No_VPOPCNTDQ    | No_BITALG       |
+    512 B  |      0.969  |      0.531  |      0.531 *|      1.406  |      0.563  |      0.656  | No_VPOPCNTDQ    | No_BITALG       |
+    768 B  |      1.000  |      0.583  |      0.625  |      1.333  |      0.563 *|      0.500 *| No_VPOPCNTDQ    | No_BITALG       |
+   1024 B  |      1.000  |      0.500  |      0.422  |      0.594  |      0.313 *|      0.281  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 B  |      1.000  |      0.500  |      0.417  |      0.802  |      0.375  |      0.313 *| No_VPOPCNTDQ    | No_BITALG       |
+   2048 B  |      1.008  |      0.508  |      0.492  |      0.406  |      0.250 *|      0.227 *| No_VPOPCNTDQ    | No_BITALG       |
+   3072 B  |      1.000  |      0.521  |      0.453  |      0.344  |      0.234  |      0.203 *| No_VPOPCNTDQ    | No_BITALG       |
+      4 KiB|      1.004  |      0.512  |      0.414  |      0.352  |      0.262  |      0.246 *| No_VPOPCNTDQ    | No_BITALG       |
+      6 KiB|      1.003  |      0.516  |      0.349  |      0.352  |      0.253 *|      0.258  | No_VPOPCNTDQ    | No_BITALG       |
+      8 KiB|      1.004  |      0.520  |      0.326  |      0.262  |      0.205 *|      0.205  | No_VPOPCNTDQ    | No_BITALG       |
+     12 KiB|      1.005  |      0.514  |      0.303  |      0.217  |      0.182  |      0.177 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 KiB|      1.004  |      0.522  |      0.294  |      0.199  |      0.169 *|      0.166 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 KiB|      1.005  |      0.517  |      0.283  |      0.182  |      0.157 *|      0.156  | No_VPOPCNTDQ    | No_BITALG       |
+     32 KiB|      1.007  |      0.515  |      0.278  |      0.178  |      0.157  |      0.154 *| No_VPOPCNTDQ    | No_BITALG       |
+     48 KiB|      1.005  |      0.521  |      0.292  |      0.267  |      0.251 *|      0.253  | No_VPOPCNTDQ    | No_BITALG       |
+     64 KiB|      1.005  |      0.521  |      0.293  |      0.259  |      0.242 *|      0.251  | No_VPOPCNTDQ    | No_BITALG       |
+     96 KiB|      1.005  |      0.519  |      0.292  |      0.251  |      0.246 *|      0.247  | No_VPOPCNTDQ    | No_BITALG       |
+    128 KiB|      1.005  |      0.520  |      0.286  |      0.235  |      0.225  |      0.223 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 KiB|      1.005  |      0.519  |      0.282  |      0.229  |      0.215 *|      0.215  | No_VPOPCNTDQ    | No_BITALG       |
+    256 KiB|      1.005  |      0.519  |      0.278  |      0.218  |      0.211  |      0.209 *| No_VPOPCNTDQ    | No_BITALG       |
+    384 KiB|      1.035  |      0.546  |      0.422 *|      0.447  |      0.438  |      0.441  | No_VPOPCNTDQ    | No_BITALG       |
+    512 KiB|      1.035  |      0.554  |      0.433 *|      0.462  |      0.451  |      0.455  | No_VPOPCNTDQ    | No_BITALG       |
+    768 KiB|      1.035  |      0.554  |      0.433 *|      0.461  |      0.454  |      0.455  | No_VPOPCNTDQ    | No_BITALG       |
+   1024 KiB|      1.035  |      0.553  |      0.435 *|      0.463  |      0.455  |      0.455  | No_VPOPCNTDQ    | No_BITALG       |
+   1536 KiB|      1.034  |      0.555  |      0.433 *|      0.462  |      0.455  |      0.456  | No_VPOPCNTDQ    | No_BITALG       |
+   2048 KiB|      1.035  |      0.555  |      0.433 *|      0.463  |      0.455  |      0.454  | No_VPOPCNTDQ    | No_BITALG       |
+   3072 KiB|      1.081  |      0.659  |      0.512 *|      0.535  |      0.526  |      0.527  | No_VPOPCNTDQ    | No_BITALG       |
+      4 MiB|      1.248  |      0.867  |      0.675 *|      0.725  |      0.705  |      0.704  | No_VPOPCNTDQ    | No_BITALG       |
+      6 MiB|      1.445  |      1.261  |      1.106  |      0.948  |      0.940  |      0.930 *| No_VPOPCNTDQ    | No_BITALG       |
+      8 MiB|      1.551  |      1.356  |      1.177  |      1.040  |      1.021 *|      1.026  | No_VPOPCNTDQ    | No_BITALG       |
+     12 MiB|      1.573  |      1.421  |      1.257  |      1.123  |      1.113  |      1.110 *| No_VPOPCNTDQ    | No_BITALG       |
+     16 MiB|      1.594  |      1.458  |      1.298  |      1.167  |      1.166  |      1.159 *| No_VPOPCNTDQ    | No_BITALG       |
+     24 MiB|      1.622  |      1.493  |      1.361  |      1.216  |      1.223  |      1.212 *| No_VPOPCNTDQ    | No_BITALG       |
+     32 MiB|      1.623  |      1.506  |      1.374  |      1.222 *|      1.236  |      1.227  | No_VPOPCNTDQ    | No_BITALG       |
+     48 MiB|      1.636  |      1.524  |      1.394  |      1.253  |      1.249  |      1.247 *| No_VPOPCNTDQ    | No_BITALG       |
+     64 MiB|      1.640  |      1.547  |      1.405  |      1.261  |      1.260  |      1.258 *| No_VPOPCNTDQ    | No_BITALG       |
+     96 MiB|      1.643  |      1.545  |      1.413  |      1.272  |      1.269 *|      1.270  | No_VPOPCNTDQ    | No_BITALG       |
+    128 MiB|      1.645  |      1.551  |      1.419  |      1.275  |      1.273  |      1.273 *| No_VPOPCNTDQ    | No_BITALG       |
+    192 MiB|      1.647  |      1.557  |      1.423  |      1.281  |      1.280  |      1.279 *| No_VPOPCNTDQ    | No_BITALG       |
+    256 MiB|      1.649  |      1.555  |      1.426  |      1.282  |      1.282  |      1.280 *| No_VPOPCNTDQ    | No_BITALG       |

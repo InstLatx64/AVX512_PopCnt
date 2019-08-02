@@ -1,0 +1,265 @@
+  === Zero Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+  === Full Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+  === Random Test === 
+      1 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      3 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 B  |HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     15 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     31 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+     63 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    127 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    255 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+    511 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   1023 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   2047 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+   4095 KiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+      7 MiB|HWPopCnt     :OK   |VPopCntHSW   :OK   |VPopCntSKXYMM:OK   |VPopCntKNL   :OK   |VPopCntSKX   :OK   |VPopCntCNL   :OK   |VPopCntKNM   :OK   |VPopCntICL   :OK   |
+
+  === Performance Test (total runtime in 1000 TSC clocks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   |VPopCntKNM   |VPopCntICL   |
+   RDTSCP  |           45|           72|           46|           54|           59|           62|           50|           46|
+     64 B  |      0.056  |      0.078  |      0.068  |      0.078  |      0.066  |      0.072  |      0.054 *|      0.056  |
+     96 B  |      0.061  |      0.080  |      0.071  |      0.078  |      0.078  |      0.078  |      0.058 *|      0.068  |
+    128 B  |      0.066  |      0.087  |      0.072  |      0.093  |      0.078  |      0.072  |      0.064  |      0.062 *|
+    192 B  |      0.073  |      0.096  |      0.084  |      0.100  |      0.076  |      0.080  |      0.068  |      0.066 *|
+    256 B  |      0.084  |      0.101  |      0.088  |      0.110  |      0.080  |      0.080  |      0.070  |      0.066 *|
+    384 B  |      0.101  |      0.115  |      0.099  |      0.138  |      0.088  |      0.105  |      0.070 *|      0.072  |
+    512 B  |      0.121  |      0.109  |      0.088  |      0.158  |      0.098  |      0.109  |      0.070  |      0.066 *|
+    768 B  |      0.162  |      0.137  |      0.117  |      0.204  |      0.115  |      0.109  |      0.073 *|      0.073 *|
+   1024 B  |      0.199  |      0.146  |      0.110  |      0.145  |      0.104  |      0.100  |      0.080  |      0.076 *|
+   1536 B  |      0.271  |      0.187  |      0.129  |      0.236  |      0.142  |      0.133  |      0.089  |      0.087 *|
+   2048 B  |      0.345  |      0.226  |      0.195  |      0.175  |      0.129  |      0.127  |      0.101  |      0.097 *|
+   3072 B  |      0.491  |      0.294  |      0.250  |      0.204  |      0.154  |      0.150  |      0.123  |      0.119 *|
+      4 KiB|      0.641  |      0.373  |      0.288  |      0.263  |      0.207  |      0.209  |      0.142  |      0.138 *|
+      6 KiB|      0.938  |      0.527  |      0.351  |      0.370  |      0.279  |      0.289  |      0.179 *|      0.183  |
+      8 KiB|      1.230  |      0.676  |      0.427  |      0.366  |      0.302  |      0.312  |      0.225  |      0.217 *|
+     12 KiB|      1.823  |      0.967  |      0.571  |      0.462  |      0.388  |      0.378  |      0.305  |      0.295 *|
+     16 KiB|      2.412  |      1.238  |      0.698  |      0.554  |      0.470  |      0.464  |      0.386  |      0.376 *|
+     24 KiB|      3.592  |      1.821  |      0.967  |      0.729  |      0.648  |      0.639  |      0.548  |      0.541 *|
+     32 KiB|      4.772  |      2.401  |      1.252  |      0.912  |      0.807  |      0.811  |      0.707  |      0.702 *|
+     48 KiB|      7.147  |      3.582  |      1.805  |      1.274  |      1.147  |      1.147  |      1.027 *|      1.027 *|
+     64 KiB|      9.512  |      4.758  |      2.492  |      1.817  |      1.763  |      1.745  |      1.609 *|      1.615  |
+     96 KiB|     14.233  |      7.147  |      3.711  |      2.642  |      2.560  |      2.589  |      2.349 *|      2.386  |
+    128 KiB|     18.958  |      9.461  |      4.899  |      3.461  |      3.397  |      3.418  |      3.115 *|      3.138  |
+    192 KiB|     28.419  |     14.171  |      7.256  |      5.119  |      5.021  |      5.054  |      4.701  |      4.641 *|
+    256 KiB|     37.890  |     18.790  |      9.691  |      6.718  |      6.678  |      6.734  |      6.318 *|      6.324  |
+    384 KiB|     56.823  |     28.243  |     14.461  |     10.064  |      9.966  |      9.968  |      9.733 *|      9.754  |
+    512 KiB|     75.740  |     37.617  |     19.480  |     13.746  |     13.567  |     13.880  |     13.361  |     13.256 *|
+    768 KiB|    113.778  |     60.561  |     46.227  |     45.952  |     45.466  |     45.415  |     45.072  |     44.965 *|
+   1024 KiB|    151.545  |     81.484  |     62.751  |     62.683  |     61.686  |     61.872  |     61.105 *|     61.124  |
+   1536 KiB|    227.238  |    122.200  |     94.175  |     93.617  |     92.596  |     92.771  |     91.615 *|     91.650  |
+   2048 KiB|    302.942  |    162.913  |    125.003  |    124.832  |    123.463  |    123.644  |    122.203  |    122.199 *|
+   3072 KiB|    454.428  |    244.308  |    188.036  |    187.028  |    185.045  |    185.350  |    183.210 *|    183.224  |
+      4 MiB|    605.986  |    325.693  |    250.312  |    250.000  |    247.004  |    247.059  |    244.198 *|    244.436  |
+      6 MiB|    933.383  |    532.263  |    406.421  |    405.815  |    394.653  |    390.403  |    381.937 *|    383.201  |
+      8 MiB|   1363.764  |    976.392  |    696.721  |    642.537  |    634.647  |    627.751  |    611.247  |    608.212 *|
+     12 MiB|   2240.915  |   1717.092  |   1366.381  |   1262.691  |   1240.857 *|   1302.125  |   1287.829  |   1514.469  |
+     16 MiB|   3477.032  |   2655.966  |   2438.233  |   2142.389  |   2045.956  |   1918.713  |   1843.035  |   1771.210 *|
+     24 MiB|   4426.768  |   3616.507  |   3132.987  |   3003.424  |   2977.681  |   2953.751  |   2921.736  |   2892.632 *|
+     32 MiB|   5907.752  |   4900.311  |   4295.317  |   4149.220  |   4119.172  |   4117.455  |   4024.685  |   4000.634 *|
+     48 MiB|   8937.981  |   7619.678  |   6743.069  |   6538.051  |   6557.526  |   6488.565  |   6261.647 *|   6301.135  |
+     64 MiB|  11889.117  |  10382.040  |   9260.792  |   8880.429  |   8818.405  |   8836.727  |   8578.924 *|   8634.085  |
+     96 MiB|  17969.808  |  15604.220  |  13928.996  |  13473.435  |  13563.227  |  13524.945  |  13117.822 *|  13145.873  |
+    128 MiB|  23954.315  |  20960.072  |  18672.475  |  18057.472  |  18177.966  |  18198.865  |  17718.892  |  17625.019 *|
+    192 MiB|  36047.900  |  31437.372  |  28289.726  |  27444.773  |  27613.589  |  27641.872  |  26722.671  |  26710.135 *|
+    256 MiB|  48017.672  |  42126.146  |  37757.070  |  36525.388  |  36759.482  |  36701.544  |  35866.394  |  35770.215 *|
+  === Performance Test (in bytes per TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   |VPopCntKNM   |VPopCntICL   |
+   RDTSCP  |           45|           72|           46|           54|           59|           62|           50|           46|
+     64 B  |      1.143  |      0.821  |      0.941  |      0.821  |      0.970  |      0.889  |      1.185 *|      1.143  |
+     96 B  |      1.574  |      1.200  |      1.352  |      1.231  |      1.231  |      1.231  |      1.655 *|      1.412  |
+    128 B  |      1.939  |      1.471  |      1.778  |      1.376  |      1.641  |      1.778  |      2.000  |      2.065 *|
+    192 B  |      2.630  |      2.000  |      2.286  |      1.920  |      2.526  |      2.400  |      2.824  |      2.909 *|
+    256 B  |      3.048  |      2.535  |      2.909  |      2.327  |      3.200  |      3.200  |      3.657  |      3.879 *|
+    384 B  |      3.802  |      3.339  |      3.879  |      2.783  |      4.364  |      3.657  |      5.486 *|      5.333  |
+    512 B  |      4.231  |      4.697  |      5.818  |      3.241  |      5.224  |      4.697  |      7.314  |      7.758 *|
+    768 B  |      4.741  |      5.606  |      6.564  |      3.765  |      6.678  |      7.046  |     10.521 *|     10.521 *|
+   1024 B  |      5.146  |      7.014  |      9.309  |      7.062  |      9.846  |     10.240  |     12.800  |     13.474 *|
+   1536 B  |      5.668  |      8.214  |     11.907  |      6.508  |     10.817  |     11.549  |     17.258  |     17.655 *|
+   2048 B  |      5.936  |      9.062  |     10.503  |     11.703  |     15.876  |     16.126  |     20.277  |     21.113 *|
+   3072 B  |      6.257  |     10.449  |     12.288  |     15.059  |     19.948  |     20.480  |     24.976  |     25.815 *|
+      4 KiB|      6.390  |     10.981  |     14.222  |     15.574  |     19.787  |     19.598  |     28.845  |     29.681 *|
+      6 KiB|      6.550  |     11.658  |     17.504  |     16.605  |     22.022  |     21.260  |     34.324 *|     33.574  |
+      8 KiB|      6.660  |     12.118  |     19.185  |     22.383  |     27.126  |     26.256  |     36.409  |     37.751 *|
+     12 KiB|      6.741  |     12.707  |     21.520  |     26.597  |     31.670  |     32.508  |     40.289  |     41.654 *|
+     16 KiB|      6.793  |     13.234  |     23.473  |     29.574  |     34.860  |     35.310  |     42.446  |     43.574 *|
+     24 KiB|      6.842  |     13.496  |     25.415  |     33.712  |     37.926  |     38.460  |     44.847  |     45.427 *|
+     32 KiB|      6.867  |     13.648  |     26.173  |     35.930  |     40.605  |     40.404  |     46.348  |     46.678 *|
+     48 KiB|      6.877  |     13.722  |     27.231  |     38.581  |     42.853  |     42.853  |     47.860 *|     47.860 *|
+     64 KiB|      6.890  |     13.774  |     26.299  |     36.068  |     37.173  |     37.556  |     40.731 *|     40.580  |
+     96 KiB|      6.907  |     13.755  |     26.490  |     37.208  |     38.400  |     37.970  |     41.849 *|     41.200  |
+    128 KiB|      6.914  |     13.854  |     26.755  |     37.871  |     38.585  |     38.348  |     42.078 *|     41.769  |
+    192 KiB|      6.918  |     13.874  |     27.096  |     38.408  |     39.157  |     38.901  |     41.823  |     42.363 *|
+    256 KiB|      6.919  |     13.951  |     27.050  |     39.021  |     39.255  |     38.928  |     41.492 *|     41.452  |
+    384 KiB|      6.920  |     13.923  |     27.191  |     39.072  |     39.456  |     39.448  |     40.400 *|     40.313  |
+    512 KiB|      6.922  |     13.938  |     26.914  |     38.141  |     38.644  |     37.773  |     39.240  |     39.551 *|
+    768 KiB|      6.912  |     12.986  |     17.012  |     17.114  |     17.297  |     17.317  |     17.448  |     17.490 *|
+   1024 KiB|      6.919  |     12.868  |     16.710  |     16.728  |     16.999  |     16.948  |     17.160 *|     17.155  |
+   1536 KiB|      6.922  |     12.871  |     16.702  |     16.801  |     16.986  |     16.954  |     17.168 *|     17.162  |
+   2048 KiB|      6.923  |     12.873  |     16.777  |     16.800  |     16.986  |     16.961  |     17.161  |     17.162 *|
+   3072 KiB|      6.922  |     12.876  |     16.729  |     16.820  |     17.000  |     16.972  |     17.170 *|     17.169  |
+      4 MiB|      6.921  |     12.878  |     16.756  |     16.777  |     16.981  |     16.977  |     17.176 *|     17.159  |
+      6 MiB|      6.740  |     11.820  |     15.480  |     15.503  |     15.942  |     16.115  |     16.472 *|     16.418  |
+      8 MiB|      6.151  |      8.591  |     12.040  |     13.055  |     13.218  |     13.363  |     13.724  |     13.792 *|
+     12 MiB|      5.615  |      7.328  |      9.209  |      9.965  |     10.141 *|      9.663  |      9.771  |      8.308  |
+     16 MiB|      4.825  |      6.317  |      6.881  |      7.831  |      8.200  |      8.744  |      9.103  |      9.472 *|
+     24 MiB|      5.685  |      6.959  |      8.033  |      8.379  |      8.451  |      8.520  |      8.613  |      8.700 *|
+     32 MiB|      5.680  |      6.847  |      7.812  |      8.087  |      8.146  |      8.149  |      8.337  |      8.387 *|
+     48 MiB|      5.631  |      6.605  |      7.464  |      7.698  |      7.675  |      7.757  |      8.038 *|      7.988  |
+     64 MiB|      5.645  |      6.464  |      7.247  |      7.557  |      7.610  |      7.594  |      7.823 *|      7.773  |
+     96 MiB|      5.602  |      6.451  |      7.227  |      7.471  |      7.422  |      7.443  |      7.674 *|      7.657  |
+    128 MiB|      5.603  |      6.403  |      7.188  |      7.433  |      7.384  |      7.375  |      7.575  |      7.615 *|
+    192 MiB|      5.585  |      6.404  |      7.117  |      7.336  |      7.291  |      7.283  |      7.534  |      7.537 *|
+    256 MiB|      5.590  |      6.372  |      7.110  |      7.349  |      7.302  |      7.314  |      7.484  |      7.504 *|
+  === Performance Test (in bytes per corrected TSC clks) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   |VPopCntKNM   |VPopCntICL   |
+   RDTSCP  |           45|           72|           46|           54|           59|           62|           50|           46|
+     64 B  |      5.818  |     10.667  |      2.909  |      2.667  |      9.143  |      6.400  |     16.000 *|      6.400  |
+     96 B  |      6.000  |     12.000  |      3.840  |      4.000  |      5.053  |      6.000  |     12.000 *|      4.364  |
+    128 B  |      6.095  |      8.533  |      4.923  |      3.282  |      6.737  |     12.800  |      9.143  |      8.000 *|
+    192 B  |      6.857  |      8.000  |      5.053  |      4.174  |     11.294  |     10.667  |     10.667  |      9.600 *|
+    256 B  |      6.564  |      8.828  |      6.095  |      4.571  |     12.190  |     14.222  |     12.800  |     12.800 *|
+    384 B  |      6.857  |      8.930  |      7.245  |      4.571  |     13.241  |      8.930  |     19.200 *|     14.769  |
+    512 B  |      6.737  |     13.838  |     12.190  |      4.923  |     13.128  |     10.894  |     25.600  |     25.600 *|
+    768 B  |      6.564  |     11.815  |     10.817  |      5.120  |     13.714  |     16.340  |     33.391 *|     28.444 *|
+   1024 B  |      6.649  |     13.838  |     16.000  |     11.253  |     22.756  |     26.947  |     34.133  |     34.133 *|
+   1536 B  |      6.796  |     13.357  |     18.506  |      8.440  |     18.506  |     21.634  |     39.385  |     37.463 *|
+   2048 B  |      6.827  |     13.299  |     13.745  |     16.926  |     29.257  |     31.508  |     40.157  |     40.157 *|
+   3072 B  |      6.888  |     13.838  |     15.059  |     20.480  |     32.337  |     34.909  |     42.082  |     42.082 *|
+      4 KiB|      6.872  |     13.608  |     16.926  |     19.598  |     27.676  |     27.864  |     44.522  |     44.522 *|
+      6 KiB|      6.880  |     13.503  |     20.144  |     19.443  |     27.927  |     27.066  |     47.628 *|     44.847  |
+      8 KiB|      6.913  |     13.563  |     21.501  |     26.256  |     33.712  |     32.768  |     46.811  |     47.906 *|
+     12 KiB|      6.911  |     13.730  |     23.406  |     30.118  |     37.350  |     38.886  |     48.188  |     49.349 *|
+     16 KiB|      6.922  |     14.051  |     25.129  |     32.768  |     39.864  |     40.756  |     48.762  |     49.648 *|
+     24 KiB|      6.929  |     14.051  |     26.684  |     36.409  |     41.725  |     42.593  |     49.349  |     49.648 *|
+     32 KiB|      6.932  |     14.070  |     27.171  |     38.191  |     43.807  |     43.749  |     49.875  |     49.951 *|
+     48 KiB|      6.921  |     14.003  |     27.943  |     40.289  |     45.176  |     45.301  |     50.309 *|     50.104 *|
+     64 KiB|      6.923  |     13.985  |     26.793  |     37.173  |     38.460  |     38.940  |     42.037 *|     41.769  |
+     96 KiB|      6.929  |     13.895  |     26.822  |     37.985  |     39.306  |     38.901  |     42.759 *|     42.010  |
+    128 KiB|      6.930  |     13.960  |     27.008  |     38.471  |     39.267  |     39.056  |     42.764 *|     42.391  |
+    192 KiB|      6.929  |     13.945  |     27.269  |     38.817  |     39.623  |     39.385  |     42.272  |     42.787 *|
+    256 KiB|      6.927  |     14.005  |     27.179  |     39.337  |     39.605  |     39.290  |     41.823 *|     41.756  |
+    384 KiB|      6.925  |     13.958  |     27.278  |     39.282  |     39.691  |     39.695  |     40.609 *|     40.504  |
+    512 KiB|      6.926  |     13.964  |     26.978  |     38.292  |     38.813  |     37.942  |     39.388  |     39.689 *|
+    768 KiB|      6.915  |     13.001  |     17.029  |     17.134  |     17.320  |     17.340  |     17.468  |     17.508 *|
+   1024 KiB|      6.921  |     12.880  |     16.722  |     16.743  |     17.015  |     16.965  |     17.174 *|     17.168  |
+   1536 KiB|      6.923  |     12.879  |     16.710  |     16.811  |     16.997  |     16.966  |     17.178 *|     17.170  |
+   2048 KiB|      6.924  |     12.879  |     16.783  |     16.807  |     16.994  |     16.970  |     17.168  |     17.168 *|
+   3072 KiB|      6.923  |     12.880  |     16.733  |     16.824  |     17.005  |     16.978  |     17.175 *|     17.173  |
+      4 MiB|      6.922  |     12.881  |     16.759  |     16.781  |     16.985  |     16.981  |     17.179 *|     17.162  |
+      6 MiB|      6.741  |     11.822  |     15.482  |     15.505  |     15.944  |     16.118  |     16.475 *|     16.420  |
+      8 MiB|      6.151  |      8.592  |     12.041  |     13.057  |     13.219  |     13.364  |     13.725  |     13.793 *|
+     12 MiB|      5.615  |      7.328  |      9.209  |      9.966  |     10.141 *|      9.664  |      9.771  |      8.309  |
+     16 MiB|      4.825  |      6.317  |      6.881  |      7.831  |      8.200  |      8.744  |      9.103  |      9.472 *|
+     24 MiB|      5.685  |      6.959  |      8.033  |      8.379  |      8.452  |      8.520  |      8.613  |      8.700 *|
+     32 MiB|      5.680  |      6.848  |      7.812  |      8.087  |      8.146  |      8.149  |      8.337  |      8.387 *|
+     48 MiB|      5.631  |      6.606  |      7.464  |      7.698  |      7.675  |      7.757  |      8.038 *|      7.988  |
+     64 MiB|      5.645  |      6.464  |      7.247  |      7.557  |      7.610  |      7.594  |      7.823 *|      7.773  |
+     96 MiB|      5.602  |      6.451  |      7.227  |      7.471  |      7.422  |      7.443  |      7.674 *|      7.657  |
+    128 MiB|      5.603  |      6.404  |      7.188  |      7.433  |      7.384  |      7.375  |      7.575  |      7.615 *|
+    192 MiB|      5.585  |      6.404  |      7.117  |      7.336  |      7.291  |      7.283  |      7.534  |      7.537 *|
+    256 MiB|      5.590  |      6.372  |      7.110  |      7.349  |      7.302  |      7.314  |      7.484  |      7.504 *|
+  === Performance Test (TSC clks per processed qwords) === 
+   Method: |HWPopCnt     |VPopCntHSW   |VPopCntSKXYMM|VPopCntKNL   |VPopCntSKX   |VPopCntCNL   |VPopCntKNM   |VPopCntICL   |
+   RDTSCP  |           45|           72|           46|           54|           59|           62|           50|           46|
+     64 B  |      1.375  |      0.750  |      2.750  |      3.000  |      0.875  |      1.250  |      0.500 *|      1.250  |
+     96 B  |      1.333  |      0.667  |      2.083  |      2.000  |      1.583  |      1.333  |      0.667 *|      1.833  |
+    128 B  |      1.313  |      0.938  |      1.625  |      2.438  |      1.188  |      0.625  |      0.875  |      1.000 *|
+    192 B  |      1.167  |      1.000  |      1.583  |      1.917  |      0.708  |      0.750  |      0.750  |      0.833 *|
+    256 B  |      1.219  |      0.906  |      1.313  |      1.750  |      0.656  |      0.563  |      0.625  |      0.625 *|
+    384 B  |      1.167  |      0.896  |      1.104  |      1.750  |      0.604  |      0.896  |      0.417 *|      0.542  |
+    512 B  |      1.188  |      0.578  |      0.656  |      1.625  |      0.609  |      0.734  |      0.313  |      0.313 *|
+    768 B  |      1.219  |      0.677  |      0.740  |      1.563  |      0.583  |      0.490  |      0.240 *|      0.281 *|
+   1024 B  |      1.203  |      0.578  |      0.500  |      0.711  |      0.352  |      0.297  |      0.234  |      0.234 *|
+   1536 B  |      1.177  |      0.599  |      0.432  |      0.948  |      0.432  |      0.370  |      0.203  |      0.214 *|
+   2048 B  |      1.172  |      0.602  |      0.582  |      0.473  |      0.273  |      0.254  |      0.199  |      0.199 *|
+   3072 B  |      1.161  |      0.578  |      0.531  |      0.391  |      0.247  |      0.229  |      0.190  |      0.190 *|
+      4 KiB|      1.164  |      0.588  |      0.473  |      0.408  |      0.289  |      0.287  |      0.180  |      0.180 *|
+      6 KiB|      1.163  |      0.592  |      0.397  |      0.411  |      0.286  |      0.296  |      0.168 *|      0.178  |
+      8 KiB|      1.157  |      0.590  |      0.372  |      0.305  |      0.237  |      0.244  |      0.171  |      0.167 *|
+     12 KiB|      1.158  |      0.583  |      0.342  |      0.266  |      0.214  |      0.206  |      0.166  |      0.162 *|
+     16 KiB|      1.156  |      0.569  |      0.318  |      0.244  |      0.201  |      0.196  |      0.164  |      0.161 *|
+     24 KiB|      1.155  |      0.569  |      0.300  |      0.220  |      0.192  |      0.188  |      0.162  |      0.161 *|
+     32 KiB|      1.154  |      0.569  |      0.294  |      0.209  |      0.183  |      0.183  |      0.160  |      0.160 *|
+     48 KiB|      1.156  |      0.571  |      0.286  |      0.199  |      0.177  |      0.177  |      0.159 *|      0.160 *|
+     64 KiB|      1.156  |      0.572  |      0.299  |      0.215  |      0.208  |      0.205  |      0.190 *|      0.192  |
+     96 KiB|      1.155  |      0.576  |      0.298  |      0.211  |      0.204  |      0.206  |      0.187 *|      0.190  |
+    128 KiB|      1.154  |      0.573  |      0.296  |      0.208  |      0.204  |      0.205  |      0.187 *|      0.189  |
+    192 KiB|      1.155  |      0.574  |      0.293  |      0.206  |      0.202  |      0.203  |      0.189  |      0.187 *|
+    256 KiB|      1.155  |      0.571  |      0.294  |      0.203  |      0.202  |      0.204  |      0.191 *|      0.192  |
+    384 KiB|      1.155  |      0.573  |      0.293  |      0.204  |      0.202  |      0.202  |      0.197 *|      0.198  |
+    512 KiB|      1.155  |      0.573  |      0.297  |      0.209  |      0.206  |      0.211  |      0.203  |      0.202 *|
+    768 KiB|      1.157  |      0.615  |      0.470  |      0.467  |      0.462  |      0.461  |      0.458  |      0.457 *|
+   1024 KiB|      1.156  |      0.621  |      0.478  |      0.478  |      0.470  |      0.472  |      0.466 *|      0.466  |
+   1536 KiB|      1.156  |      0.621  |      0.479  |      0.476  |      0.471  |      0.472  |      0.466 *|      0.466  |
+   2048 KiB|      1.155  |      0.621  |      0.477  |      0.476  |      0.471  |      0.471  |      0.466  |      0.466 *|
+   3072 KiB|      1.156  |      0.621  |      0.478  |      0.475  |      0.470  |      0.471  |      0.466 *|      0.466  |
+      4 MiB|      1.156  |      0.621  |      0.477  |      0.477  |      0.471  |      0.471  |      0.466 *|      0.466  |
+      6 MiB|      1.187  |      0.677  |      0.517  |      0.516  |      0.502  |      0.496  |      0.486 *|      0.487  |
+      8 MiB|      1.301  |      0.931  |      0.664  |      0.613  |      0.605  |      0.599  |      0.583  |      0.580 *|
+     12 MiB|      1.425  |      1.092  |      0.869  |      0.803  |      0.789 *|      0.828  |      0.819  |      0.963  |
+     16 MiB|      1.658  |      1.266  |      1.163  |      1.022  |      0.976  |      0.915  |      0.879  |      0.845 *|
+     24 MiB|      1.407  |      1.150  |      0.996  |      0.955  |      0.947  |      0.939  |      0.929  |      0.920 *|
+     32 MiB|      1.409  |      1.168  |      1.024  |      0.989  |      0.982  |      0.982  |      0.960  |      0.954 *|
+     48 MiB|      1.421  |      1.211  |      1.072  |      1.039  |      1.042  |      1.031  |      0.995 *|      1.002  |
+     64 MiB|      1.417  |      1.238  |      1.104  |      1.059  |      1.051  |      1.053  |      1.023 *|      1.029  |
+     96 MiB|      1.428  |      1.240  |      1.107  |      1.071  |      1.078  |      1.075  |      1.043 *|      1.045  |
+    128 MiB|      1.428  |      1.249  |      1.113  |      1.076  |      1.083  |      1.085  |      1.056  |      1.051 *|
+    192 MiB|      1.432  |      1.249  |      1.124  |      1.091  |      1.097  |      1.098  |      1.062  |      1.061 *|
+    256 MiB|      1.431  |      1.255  |      1.125  |      1.089  |      1.096  |      1.094  |      1.069  |      1.066 *|
